@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa">
+<head>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<script>
+(function(){
+  try {
+    var url = new URL(window.location.href);
+    var t = url.searchParams.get('theme') || localStorage.getItem('kavico:theme') || localStorage.getItem('theme') || ((window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark');
+    var l = url.searchParams.get('lang') || localStorage.getItem('kavico:lang') || localStorage.getItem('lang') || 'fa';
+    t = (t === 'light') ? 'light' : 'dark';
+    l = (l === 'en') ? 'en' : 'fa';
+    var html = document.documentElement;
+    html.setAttribute('data-theme', t);
+    html.classList.toggle('dark', t === 'dark');
+    html.classList.toggle('light', t === 'light');
+    html.setAttribute('lang', l);
+    html.setAttribute('dir', l === 'fa' ? 'rtl' : 'ltr');
+  } catch(e){}
+})();
+</script>
+<meta charset="utf-8"/>
+<meta content="مجموعه پوشش‌دهی کاویان" data-i18n-content="t163" name="application-name"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title data-i18n="t_title_index">مجموعه پوشش‌دهی کاویان | پوشش PVD صنعتی و تزئینی</title>
+<meta content="مجموعه پوشش‌دهی کاویان ارائه‌دهنده خدمات پوشش PVD، کوتینگ چینی/سرامیک و آماده‌سازی سطح برای کاربردهای صنعتی، ساختمانی و دکوراتیو در تهران و کرج. مشاوره و ثبت سفارش." data-i18n-content="t_desc_index" name="description"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots"/>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="googlebot"/>
+<meta content="PVD, پی وی دی, کوتینگ PVD, لایه نشانی, چینی بهداشتی, ظروف چینی, طلاکاری صنعتی, پوشش طلایی, رزگلد, دودی, نقره‌ای, کاویان, تهران, شهریار, اندیشه, کوتینگ چینی, طلاکاری روشویی, کوتینگ توالت فرنگی, پوشش دهی فلزات, TiN, CrN, یراق آلات, شیرآلات" data-i18n-content="t160" name="keywords"/>
+<meta content="مجموعه پوشش‌دهی کاویان" name="author"/>
+<meta content="Persian" name="language"/>
+<meta content="IR-23" name="geo.region"/>
+<meta content="شهریار، تهران" name="geo.placename"/>
+<meta content="35.691065;50.997938" name="geo.position"/>
+<meta content="35.691065, 50.997938" name="ICBM"/>
+<!-- Open Graph -->
+<meta content="مجموعه پوشش‌دهی کاویان | پوشش PVD و کوتینگ صنعتی، ساختمانی و تزئینی" data-i18n-content="t_title_index" property="og:title"/>
+<meta content="مجموعه پوشش‌دهی کاویان ارائه‌دهنده خدمات پوشش PVD، کوتینگ چینی/سرامیک و آماده‌سازی سطح برای کاربردهای صنعتی، ساختمانی و دکوراتیو در تهران و کرج. مشاوره و ثبت سفارش." data-i18n-content="t_desc_index" property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://kavico.ir/" property="og:url"/>
+<meta content="fa_IR" property="og:locale"/>
+<meta content="مجموعه پوشش‌دهی کاویان" data-i18n-content="t163" property="og:site_name"/>
+<meta content="https://kavico.ir/og-image.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<meta content="مجموعه پوشش‌دهی کاویان - لایه‌نشانی PVD" data-i18n-content="t164" property="og:image:alt"/>
+<!-- Twitter Card -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="مجموعه پوشش‌دهی کاویان | پوشش PVD و کوتینگ صنعتی، ساختمانی و تزئینی" data-i18n-content="t_title_index" name="twitter:title"/>
+<meta content="مجموعه پوشش‌دهی کاویان ارائه‌دهنده خدمات پوشش PVD، کوتینگ چینی/سرامیک و آماده‌سازی سطح برای کاربردهای صنعتی، ساختمانی و دکوراتیو در تهران و کرج. مشاوره و ثبت سفارش." data-i18n-content="t_desc_index" name="twitter:description"/>
+<meta content="https://kavico.ir/twitter-image.jpg" name="twitter:image"/>
+<!-- Additional Meta -->
+<meta content="#070b14" name="theme-color"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="مجموعه پوشش‌دهی کاویان" data-i18n-content="t163" name="apple-mobile-web-app-title"/>
+<meta content="telephone=yes" name="format-detection"/>
+<meta content="ie=edge" http-equiv="x-ua-compatible"/>
+<link href="https://kavico.ir/" rel="canonical"/><link href="https://kavico.ir/" hreflang="fa-IR" rel="alternate"/><link href="https://kavico.ir/?lang=en" hreflang="en" rel="alternate"/><link href="https://kavico.ir/" hreflang="x-default" rel="alternate"/>
+<link href="https://kavico.ir" rel="shortlink"/>
+<!-- Favicons -->
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/site.webmanifest" rel="manifest"/>
+<!-- Schema.org Structured Data -->
+<link href="/assets/css/style.css" rel="stylesheet"/>
+<meta content="https://kavico.ir/" name="twitter:url"/><meta content="strict-origin-when-cross-origin" name="referrer"/><meta content="dark light" name="color-scheme"/><meta content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; script-src 'self' https://unpkg.com https://cdnjs.cloudflare.com 'sha256-PWxXFUab3idtpaRoOw2oHgHylOTGJge66NdjPB6VUCY=' 'sha256-DkcOpDI09jIc3HS04ZKeYBQ2Fqyh1+H4WCoAvCisBtI=' 'sha256-/FyGq3WG9LPbQn+avvIA/nUtxGXhE25RMcveoTNM5TA=' 'sha256-Ega5xEVbau8siFnriZemGeDSFQCuelUs7kPhbdyLyqY=' 'sha256-SH5n+1klP84Vv8KvVl9rR8nPNPzOz2KM1QBv5gM/v78=' 'sha256-JosDere7jjNUDyoBnWIORKLQ/f8SMqe2L0zJugCKvGM=' 'sha256-/pVnstBMTCiv3DbvuiqJPaum5oWaUtoQM2nRcktM0/0=' 'sha256-oqemYUvWDCGs/nEXQIb81NUkdVojchcaHIXy+xGREwM='; connect-src 'self' https:; font-src 'self' data: https://fonts.gstatic.com; worker-src 'self'; manifest-src 'self'; upgrade-insecure-requests;" http-equiv="Content-Security-Policy"/><meta content="nosniff" http-equiv="X-Content-Type-Options"/><meta content="DENY" http-equiv="X-Frame-Options"/><meta content="geolocation=(), microphone=(), camera=()" http-equiv="Permissions-Policy"/><link crossorigin="" href="https://cdnjs.cloudflare.com" rel="preconnect"/><link crossorigin="" href="https://unpkg.com" rel="preconnect"/>
+<meta content="en_US" property="og:locale:alternate"/>
+<link as="image" fetchpriority="high" href="/assets/img/hero.webp" imagesrcset="assets/img/hero.webp 1x" rel="preload"/>
+\1
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "@id": "https://kavico.ir/#org", "name": "مجموعه پوشش‌دهی کاویان", "alternateName": ["Kavian Coating Group", "Kavian"], "url": "https://kavico.ir/", "email": "kaviancoating@gmail.com", "telephone": "+989125460799", "contactPoint": [{"@type": "ContactPoint", "telephone": "+989125460799", "contactType": "sales", "email": "kaviancoating@gmail.com", "availableLanguage": ["fa", "en"]}], "address": {"@type": "PostalAddress", "addressCountry": "IR", "streetAddress": "اندیشه، بلوار ولایت، خیابان اطلس شرقی، پلاک ۶۴۹", "addressLocality": "اندیشه", "addressRegion": "تهران"}, "areaServed": ["IR", {"@type": "City", "name": "تهران"}, {"@type": "City", "name": "کرج"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "@id": "https://kavico.ir/#local", "name": "مجموعه پوشش‌دهی کاویان", "alternateName": ["Kavian Coating Group", "Kavian"], "url": "https://kavico.ir/", "telephone": "+989125460799", "email": "kaviancoating@gmail.com", "address": {"@type": "PostalAddress", "addressCountry": "IR", "streetAddress": "اندیشه، بلوار ولایت، خیابان اطلس شرقی، پلاک ۶۴۹", "addressLocality": "اندیشه", "addressRegion": "تهران"}, "geo": {"@type": "GeoCoordinates", "latitude": "35.691065", "longitude": "50.997938"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["https://schema.org/Saturday", "https://schema.org/Sunday", "https://schema.org/Monday", "https://schema.org/Tuesday", "https://schema.org/Wednesday"], "opens": "07:00", "closes": "17:00"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["https://schema.org/Thursday"], "opens": "07:00", "closes": "13:00"}], "areaServed": ["IR", {"@type": "City", "name": "تهران"}, {"@type": "City", "name": "کرج"}], "priceRange": "$$", "parentOrganization": {"@id": "https://kavico.ir/#org"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "@id": "https://kavico.ir/#website", "url": "https://kavico.ir/", "name": "مجموعه پوشش‌دهی کاویان", "alternateName": ["Kavian Coating Group", "Kavian"], "inLanguage": ["fa-IR", "en"], "potentialAction": {"@type": "SearchAction", "target": "https://kavico.ir/blog/?q={search_term_string}", "query-input": "required name=search_term_string"}}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://kavico.ir/",
+  "url": "https://kavico.ir/",
+  "name": "مجموعه پوشش‌دهی کاویان | پوشش PVD و سرامیک صنعتی در تهران | Kavian Coating",
+  "description": "مجموعه پوشش‌دهی کاویان ارائه‌دهنده خدمات لایه‌نشانی PVD با کیفیت صنعتی برای قطعات فلزی، چینی بهداشتی و ظروف چینی. پوشش‌های طلایی، نقره‌ای، دودی و رزگلد با دوام بالا. تلفن: ۰۹۱۲۵۴۶۰۷۹۹",
+  "inLanguage": "fa-IR",
+  "isPartOf": {
+    "@id": "https://kavico.ir/#website"
+  },
+  "about": {
+    "@id": "https://kavico.ir/#org"
+  }
+}
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "@id": "https://kavico.ir/#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "خانه", "item": "https://kavico.ir/"}], "inLanguage": "fa-IR"}</script>
+<meta content="صفحه اصلی سایت کاویکو - پوشش‌دهی صنعتی و دکوراتیو" name="description"/>
+<meta content="کاویکو - خانه" property="og:title"/>
+<meta content="خوش آمدید به سایت کاویکو، بهترین راه‌حل برای پوشش‌دهی صنعتی و دکوراتیو" property="og:description"/>
+<meta content="/kavico/og-image.jpg" property="og:image"/>
+<meta content="کاویکو - خانه" name="twitter:title"/>
+<meta content="خوش آمدید به سایت کاویکو، بهترین راه‌حل برای پوشش‌دهی صنعتی و دکوراتیو" name="twitter:description"/>
+<meta content="/kavico/twitter-image.jpg" name="twitter:image"/>
+</head>
+<body>
+<header class="header" id="header">
+<div class="container">
+<div class="header-content"><div class="header-brand"><a aria-label="مجموعه پوشش‌دهی کاویان" class="logo" data-i18n-aria="t163" href="https://kavico.ir/"><img alt="مجموعه پوشش‌دهی کاویان" class="logo-img" data-i18n-alt="t163" decoding="async" height="40" loading="lazy" src="/assets/img/logo.svg" width="40"/><span class="brand-name logo-text logo-short" data-i18n="t566">کاویان</span></a><div class="header-actions">
+<button aria-label="تغییر تم" class="theme-toggle" id="themeToggle" type="button">
+<svg class="theme-icon dark" viewbox="0 0 24 24">
+<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+<svg class="theme-icon light" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="5"></circle>
+<line x1="12" x2="12" y1="1" y2="3"></line>
+<line x1="12" x2="12" y1="21" y2="23"></line>
+<line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line>
+<line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line>
+<line x1="1" x2="3" y1="12" y2="12"></line>
+<line x1="21" x2="23" y1="12" y2="12"></line>
+<line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line>
+<line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
+</svg>
+</button><button aria-label="Language" class="lang-toggle" id="langToggle" type="button">EN</button>
+<!-- contact link moved to menu --></div></div>
+<div class="header-menu">
+<button aria-controls="navMenu" aria-expanded="false" aria-label="باز کردن منو" class="menu-btn" id="menuBtn" type="button">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+<nav aria-label="منوی اصلی" class="nav" id="nav" role="navigation"><div id="navMenu">
+<a href="https://kavico.ir/"><span data-i18n="t003">خانه</span></a>
+<details class="nav-dd">
+<summary><span data-i18n="t004">خدمات</span><span aria-hidden="true" class="nav-caret">▾</span></summary>
+<div class="nav-dd-menu">
+<a href="https://kavico.ir/services/"><span data-i18n="t506">همه خدمات</span></a>
+<a href="https://kavico.ir/services/pvd-coating/"><span data-i18n="pvdTitle">پوشش PVD</span></a>
+<a href="https://kavico.ir/services/decorative-pvd/"><span data-i18n="t_services_chip_decor">PVD دکوراتیو و لوکس</span></a>
+<a href="https://kavico.ir/services/pvd-faucets/"><span data-i18n="t_services_chip_faucets">PVD شیرآلات و یراق</span></a>
+<a href="https://kavico.ir/services/ceramic-coating/"><span data-i18n="ceramicTitle">پوشش سرامیک</span></a>
+</div>
+</details>
+<details class="nav-dd">
+<summary><span data-i18n="t505">منابع</span><span aria-hidden="true" class="nav-caret">▾</span></summary>
+<div class="nav-dd-menu">
+<a href="https://kavico.ir/blog/"><span data-i18n="t192">مقالات</span></a>
+<a href="https://kavico.ir/portfolio/"><span data-i18n="t005">نمونه کارها</span></a>
+<a href="https://kavico.ir/faq/"><span data-i18n="t006">سوالات متداول</span></a>
+<a href="https://kavico.ir/process/"><span data-i18n="t191">فرآیند کار</span></a>
+<a href="https://kavico.ir/quality/"><span data-i18n="t014">کنترل کیفیت</span></a>
+<a href="https://kavico.ir/guide/"><span data-i18n="t194">راهنمای انتخاب پوشش</span></a>
+</div>
+</details>
+<a href="https://kavico.ir/about/"><span data-i18n="t025">درباره ما</span></a>
+<a href="https://kavico.ir/contact/"><span data-i18n="t146">تماس با ما</span></a>
+</div>
+<details class="nav-dd">
+<summary><span data-i18n="t505">منابع</span><span aria-hidden="true" class="nav-caret">▾</span></summary>
+<div class="nav-dd-menu">
+<a href="https://kavico.ir/blog/"><span data-i18n="t192">مقالات</span></a>
+<a href="https://kavico.ir/portfolio/"><span data-i18n="t005">نمونه کارها</span></a>
+<a href="https://kavico.ir/faq/"><span data-i18n="t006">سوالات متداول</span></a>
+<a href="https://kavico.ir/process/"><span data-i18n="t191">فرآیند کار</span></a>
+<a href="https://kavico.ir/quality/"><span data-i18n="t014">کنترل کیفیت</span></a>
+<a href="https://kavico.ir/guide/"><span data-i18n="t194">راهنمای انتخاب پوشش</span></a>
+</div>
+</details>
+<a href="https://kavico.ir/about/"><span data-i18n="t025">درباره ما</span></a>
+<a href="https://kavico.ir/contact/"><span data-i18n="t146">تماس با ما</span></a>
+</nav></div>
+</div>
+</header>
+<main>
+<section class="hero fade-in" id="hero">
+<div class="container">
+<div class="hero-grid">
+<div>
+<h1><span class="mobile-line"><span data-i18n="t009">پوشش پی‌وی‌دی</span></span> <span class="mobile-break"><span data-i18n="t010">با کیفیت صنعتی و ظاهر لوکس</span></span></h1>
+<p><span data-i18n="t011">از قطعات تزئینی تا کاربردهای صنعتی؛ تمرکز ما روی یکنواختی رنگ، چسبندگی بالا و دوام در استفاده واقعی است.</span></p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="https://kavico.ir/contact/"><span data-i18n="t012">مشاوره و سفارش</span></a>
+<a class="btn btn-ghost" href="https://kavico.ir/portfolio/"><span data-i18n="t013">مشاهده نمونه کارها</span></a>
+</div>
+<div class="badges">
+<span class="badge"><span data-i18n="t014">کنترل کیفیت</span></span>
+<span class="badge"><span data-i18n="t015">رنگ یکنواخت</span></span>
+<span class="badge"><span data-i18n="t016">مقاومت سایشی</span></span>
+</div>
+</div>
+<div class="hero-img zoom-wrap"><picture><source srcset="/assets/img/hero.webp" type="image/webp"/><img alt="نمونه کار مجموعه پوشش‌دهی کاویان" class="img-zoom" decoding="async" fetchpriority="high" height="900" loading="eager" src="/assets/img/hero.jpg" width="1200"/></picture></div>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="services">
+<div class="container">
+<div class="grid-2">
+<div>
+<h2 class="section-title"><span data-i18n="t017">خدمات</span></h2>
+<p class="section-subtitle"><span data-i18n="t018">پوشش‌های PVD برای طیف متنوعی از قطعات</span></p>
+<div class="chips" style="margin-top:.8rem;"><a class="chip" href="https://kavico.ir/services/decorative-pvd/"><span data-i18n="t_home_decor_cta">مشاهده صفحه PVD لوکس</span></a></div>
+<div class="cards">
+<a class="card card-link" href="https://kavico.ir/services/decorative-pvd/">
+<h3><span data-i18n="t019">پوشش‌های تزئینی</span></h3>
+<p><span data-i18n="t020">طلایی، رزگلد، دودی، نقره‌ای مناسب دکور و یراق</span></p>
+</a>
+<div class="card">
+<h3><span data-i18n="t021">پوشش‌های صنعتی</span></h3>
+<p><span data-i18n="t022">افزایش مقاومت سایشی برای کاربردهای تخصصی</span></p>
+</div>
+<div class="card">
+<h3><span data-i18n="t023">مشاوره و آماده‌سازی</span></h3>
+<p><span data-i18n="t024">بررسی جنس قطعه و انتخاب پوشش مناسب</span></p>
+</div>
+</div>
+</div>
+<div class="section-img zoom-wrap"><picture><source srcset="/assets/img/services.webp" type="image/webp"/><img alt="خدمات پی‌وی‌دی و پوشش چینی" class="img-zoom" decoding="async" height="700" loading="lazy" src="/assets/img/services.jpg" width="1100"/></picture></div>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="stats">
+<div class="container">
+<h2 class="section-title" style="text-align: center;"><span data-i18n="t025">درباره ما</span></h2>
+<p class="section-subtitle" style="text-align: center;"><span data-i18n="t026">پیشگام در صنعت لایه‌نشانی PVD</span></p>
+<div style="max-width: 900px; margin: 0 auto 3rem; padding: 2.5rem; background: var(--card-bg); border: 1px solid var(--card-border); border-radius: var(--radius); position: relative; overflow: hidden;">
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: linear-gradient(90deg, #f59e0b, #fbbf24, #f59e0b); opacity: 0.6;"></div>
+<div style="display: grid; gap: 1.5rem;">
+<p style="color: var(--text); line-height: 2; font-size: 1.05rem; text-align: justify;">
+<strong style="color: var(--accent); font-weight: 700;"><span data-i18n="t027">مجموعه پوشش‌دهی کاویان</span></strong><span data-i18n="t028"> با بهره‌گیری از </span><strong><span data-i18n="t029">۱۵ سال دانش و تجربه در ساخت دستگاه‌های PVD</span></strong><span data-i18n="t030">، از سال </span><strong><span data-i18n="t031">۱۳۹۶</span></strong><span data-i18n="t032"> به صورت تخصصی در زمینه لایه‌نشانی فیزیکی فعالیت می‌کند.
+                        </span></p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.2rem; margin: 1rem 0;">
+<div style="padding: 1.2rem; background: rgba(245,158,11,0.08); border-right: 3px solid var(--accent); border-radius: 12px;">
+<div style="font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; font-size: 1.05rem;"><span data-i18n="t033">⚙️ ساخت دستگاه</span></div>
+<div style="color: var(--muted); font-size: 0.95rem; line-height: 1.8;"><span data-i18n="t034">طراحی و ساخت دستگاه‌های کوتینگ PVD با تکنولوژی روز</span></div>
+</div>
+<div style="padding: 1.2rem; background: rgba(245,158,11,0.08); border-right: 3px solid var(--accent); border-radius: 12px;">
+<div style="font-weight: 700; color: var(--accent); margin-bottom: 0.5rem; font-size: 1.05rem;"><span data-i18n="t035">✨ خدمات پوشش‌دهی</span></div>
+<div style="color: var(--muted); font-size: 0.95rem; line-height: 1.8;"><span data-i18n="t036">PVD، پرداخت و ابکاری قطعات با کیفیت صنعتی</span></div>
+</div>
+</div>
+<p style="color: var(--text); line-height: 2; font-size: 1.05rem; text-align: justify;"><span data-i18n="t037">
+                            ما افتخار همکاری با </span><strong style="color: var(--accent);"><span data-i18n="t038">شرکت‌های معتبر</span></strong><span data-i18n="t039"> از جمله </span><strong><span data-i18n="t040">عالی‌نسب، نگین پاسارگاد، لاژید</span></strong><span data-i18n="t041"> و بسیاری دیگر را داشته‌ایم. تمامی پوشش‌های ما </span><strong style="color: var(--accent);"><span data-i18n="t042">با ضمانت کیفیت</span></strong><span data-i18n="t043"> و </span><strong><span data-i18n="t044">ماندگاری بالا</span></strong><span data-i18n="t045"> ارائه می‌شوند.
+                        </span></p>
+<div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1rem;">
+<div style="padding: 0.8rem 1.5rem; background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(251,191,36,0.1)); border: 1px solid rgba(245,158,11,0.3); border-radius: 12px; font-weight: 600; color: var(--text); font-size: 0.95rem;"><span data-i18n="t046">
+                                🏆 ضمانت کیفیت
+                            </span></div>
+<div style="padding: 0.8rem 1.5rem; background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(251,191,36,0.1)); border: 1px solid rgba(245,158,11,0.3); border-radius: 12px; font-weight: 600; color: var(--text); font-size: 0.95rem;"><span data-i18n="t047">
+                                🔬 تکنولوژی روز
+                            </span></div>
+<div style="padding: 0.8rem 1.5rem; background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(251,191,36,0.1)); border: 1px solid rgba(245,158,11,0.3); border-radius: 12px; font-weight: 600; color: var(--text); font-size: 0.95rem;"><span data-i18n="t048">
+                                ⏱️ ماندگاری بالا
+                            </span></div>
+</div>
+</div>
+</div>
+<h3 style="text-align: center; font-weight: 700; font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--text);"><span data-i18n="t049">آمار و تجربه</span></h3>
+<div class="stats">
+<div class="stat">
+<div class="stat-num" data-target="15">0</div>
+<div class="stat-label"><span data-i18n="t050">سال تجربه ساخت دستگاه</span></div>
+</div>
+<div class="stat">
+<div class="stat-num" data-target="8">0</div>
+<div class="stat-label"><span data-i18n="t051">سال فعالیت مجموعه</span></div>
+</div>
+<div class="stat">
+<div class="stat-num" data-target="5">0</div>
+<div class="stat-label"><span data-i18n="t052">تنوع رنگ</span></div>
+</div>
+<div class="stat">
+<div class="stat-num" data-target="50">0</div>
+<div class="stat-label"><span data-i18n="t053">تنوع طرح در چینی</span></div>
+</div>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="articles">
+<div class="container">
+<div class="section-header section-header-split">
+<div>
+<h2 class="section-title" style="margin:0;"><span data-i18n="t510">آخرین مقالات</span></h2>
+<p class="section-subtitle" style="margin:0.5rem 0 0;color:var(--muted);line-height:1.9;"><span data-i18n="t511">راهنماهای کوتاه و کاربردی برای انتخاب پوشش مناسب در پروژه‌های صنعتی، ساختمانی و لوکس‌کاری.</span></p>
+</div>
+<a class="btn btn-outline" href="https://kavico.ir/blog/"><span data-i18n="t512">مشاهده همه مقالات</span></a>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="portfolio">
+<div class="container">
+<h2 class="section-title" style="text-align: center;"><span data-i18n="t054">نمونه کارها</span></h2>
+<p class="section-subtitle" style="text-align: center;"><span data-i18n="t055">منتخبی از پروژه‌های انجام شده</span></p>
+<div class="slider">
+<div class="slider-container">
+<button aria-label="قبلی" class="slider-nav prev" data-i18n-aria="t602">
+<svg viewbox="0 0 24 24">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+</button>
+<div class="slider-track">
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/portfolio-1.webp" type="image/webp"/><img alt="نمونه کار پی‌وی‌دی شماره 1" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/portfolio-1.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t056">پوشش طلایی</span></h3>
+<p class="slide-text"><span data-i18n="t057">برای یراق‌آلات و قطعات تزئینی</span></p>
+<div class="slide-tags">
+<span class="badge">TiN</span>
+<span class="badge"><span data-i18n="t058">براق</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/portfolio-2.webp" type="image/webp"/><img alt="نمونه کار پی‌وی‌دی شماره 2" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/portfolio-2.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t059">رزگلد لوکس</span></h3>
+<p class="slide-text"><span data-i18n="t060">ظاهر خاص برای دکور و شیرآلات</span></p>
+<div class="slide-tags">
+<span class="badge">Rose</span>
+<span class="badge"><span data-i18n="t061">مات</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/portfolio-3.webp" type="image/webp"/><img alt="نمونه کار پی‌وی‌دی شماره 3" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/portfolio-3.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t062">دودی PVD</span></h3>
+<p class="slide-text"><span data-i18n="t063">ظاهر مدرن و مقاومت عالی برای کاربردهای مختلف</span></p>
+<div class="slide-tags">
+<span class="badge"><span data-i18n="t064">دودی</span></span>
+<span class="badge"><span data-i18n="t065">مقاوم</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/portfolio-4.webp" type="image/webp"/><img alt="نمونه کار پی‌وی‌دی شماره 4" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/portfolio-4.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t066">نقره‌ای استیل</span></h3>
+<p class="slide-text"><span data-i18n="t067">مینیمال و سازگار با طراحی مدرن</span></p>
+<div class="slide-tags">
+<span class="badge">CrN</span>
+<span class="badge"><span data-i18n="t068">ضد زنگ</span></span>
+</div>
+</div>
+</div>
+</div>
+<button aria-label="بعدی" class="slider-nav next" data-i18n-aria="t603">
+<svg viewbox="0 0 24 24">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="section fade-in ceramic" id="ceramic">
+<div class="container">
+<header class="section-header center">
+<h2 class="section-title"><span data-i18n="t069">کوتینگ چینی بهداشتی و ظروف</span></h2>
+<p class="section-subtitle"><span data-i18n="t070">تخصص ما در پوشش PVD روی محصولات چینی</span></p>
+</header>
+<div class="ceramic-top grid-2">
+<div class="ceramic-cards">
+<article class="card ceramic-card">
+<h3 class="ceramic-card-title"><span data-i18n="t071">🚿 چینی بهداشتی</span></h3>
+<p class="ceramic-card-text"><span data-i18n="t072">پوشش PVD روی انواع لوازم بهداشتی با دوام و کیفیت بالا</span></p>
+<div class="badge-row">
+<span class="badge"><span data-i18n="t073">روشویی</span></span>
+<span class="badge"><span data-i18n="t074">توالت فرنگی</span></span>
+<span class="badge"><span data-i18n="t075">توالت زمینی</span></span>
+</div>
+</article>
+<article class="card ceramic-card">
+<h3 class="ceramic-card-title"><span data-i18n="t076">🍽️ ظروف و تزئینات</span></h3>
+<p class="ceramic-card-text"><span data-i18n="t077">کوتینگ PVD روی ظروف و تزئینات چینی با ظرافت عالی</span></p>
+<div class="badge-row">
+<span class="badge"><span data-i18n="t078">سرویس غذاخوری</span></span>
+<span class="badge"><span data-i18n="t079">مجسمه</span></span>
+<span class="badge"><span data-i18n="t080">گلدان</span></span>
+<span class="badge"><span data-i18n="t081">دکوری</span></span>
+</div>
+</article>
+</div>
+<aside class="card ceramic-palette">
+<h3 class="ceramic-palette-title"><span data-i18n="t082">🎨 رنگ‌های متنوع</span></h3>
+<ul class="palette-list">
+<li class="palette-item">
+<span aria-hidden="true" class="palette-swatch swatch-gold"></span>
+<span class="palette-label"><span data-i18n="t083">طلایی براق و مات</span></span>
+</li>
+<li class="palette-item">
+<span aria-hidden="true" class="palette-swatch swatch-silver"></span>
+<span class="palette-label"><span data-i18n="t084">نقره‌ای درخشان</span></span>
+</li>
+<li class="palette-item">
+<span aria-hidden="true" class="palette-swatch swatch-smoke"></span>
+<span class="palette-label"><span data-i18n="t085">دودی مدرن</span></span>
+</li>
+<li class="palette-item">
+<span aria-hidden="true" class="palette-swatch swatch-rosegold"></span>
+<span class="palette-label"><span data-i18n="t086">رزگلد لوکس</span></span>
+</li>
+</ul>
+<div class="callout callout-amber">
+<h4 class="callout-title"><span data-i18n="t087">✨ طرح‌دار با سیستم ترنسفر</span></h4>
+<p class="callout-text"><span data-i18n="t088">امکان اضافه کردن طرح‌های اختصاصی با تکنولوژی عکس‌برگردون (Transfer) قبل از پوشش PVD</span></p>
+</div>
+</aside>
+</div>
+<div class="card ceramic-process">
+<h3 class="ceramic-process-title"><span data-i18n="t089">⚙️ فرآیند کار</span></h3>
+<p class="ceramic-process-text"><span data-i18n="t090">در ابتدا طرح با سیستم ترنسفر روی چینی اعمال و سپس در کوره تثبیت می‌شود. در نهایت پوشش PVD با رنگ و کیفیت دلخواه اعمال می‌گردد.</span></p>
+<div class="process-grid">
+<div class="process-step">
+<div class="process-step-number" lang="en">1</div>
+<div class="process-step-title"><span data-i18n="t091">طرح‌زنی</span></div>
+<div class="process-step-desc"><span data-i18n="t092">اعمال طرح با ترنسفر</span></div>
+</div>
+<div class="process-step">
+<div class="process-step-number" lang="en">2</div>
+<div class="process-step-title"><span data-i18n="t093">کوره‌کاری</span></div>
+<div class="process-step-desc"><span data-i18n="t094">تثبیت طرح در دما بالا</span></div>
+</div>
+<div class="process-step">
+<div class="process-step-number" lang="en">3</div>
+<div class="process-step-title"><span data-i18n="t095">پوشش PVD</span></div>
+<div class="process-step-desc"><span data-i18n="t096">اعمال لایه نهایی</span></div>
+</div>
+<div class="process-step">
+<div aria-hidden="true" class="process-step-icon">✅</div>
+<div class="process-step-title"><span data-i18n="t097">کنترل کیفیت</span></div>
+<div class="process-step-desc"><span data-i18n="t098">بازرسی نهایی</span></div>
+</div>
+</div>
+</div>
+<!-- Ceramic Gallery Slider -->
+<h3 class="ceramic-gallery-title"><span data-i18n="t099">نمونه‌هایی از کارهای چینی</span></h3>
+<div class="slider">
+<div class="slider-container">
+<button aria-label="قبلی" class="slider-nav prev" data-i18n-aria="t602">
+<svg viewbox="0 0 24 24">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+</button>
+<div class="slider-track ceramic-slider">
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/ceramic-1.webp" type="image/webp"/><img alt="نمونه کار کوتینگ چینی شماره 1" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/ceramic-1.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t100">روشویی طلایی</span></h3>
+<p class="slide-text"><span data-i18n="t101">پوشش PVD طلایی براق روی روشویی چینی</span></p>
+<div class="slide-tags">
+<span class="badge"><span data-i18n="t102">طلایی</span></span>
+<span class="badge"><span data-i18n="t103">براق</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/ceramic-2.webp" type="image/webp"/><img alt="نمونه کار کوتینگ چینی شماره 2" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/ceramic-2.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t104">قوری رزگلد</span></h3>
+<p class="slide-text"><span data-i18n="t105">قوری چینی با پوشش رزگلد و طرح سفارشی</span></p>
+<div class="slide-tags">
+<span class="badge"><span data-i18n="t106">رزگلد</span></span>
+<span class="badge"><span data-i18n="t107">طرح‌دار</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/ceramic-3.webp" type="image/webp"/><img alt="نمونه کار کوتینگ چینی شماره 3" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/ceramic-3.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t108">توالت فرنگی نقره‌ای</span></h3>
+<p class="slide-text"><span data-i18n="t109">پوشش نقره‌ای درخشان با دوام بالا</span></p>
+<div class="slide-tags">
+<span class="badge"><span data-i18n="t110">نقره‌ای</span></span>
+<span class="badge"><span data-i18n="t111">مقاوم</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/ceramic-4.webp" type="image/webp"/><img alt="نمونه کار کوتینگ چینی شماره 4" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/ceramic-4.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t112">سرویس چینی طلایی</span></h3>
+<p class="slide-text"><span data-i18n="t113">سرویس کامل با پوشش طلایی یکنواخت</span></p>
+<div class="slide-tags">
+<span class="badge"><span data-i18n="t114">طلایی</span></span>
+<span class="badge"><span data-i18n="t115">سرویس</span></span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="slide-img zoom-wrap"><picture><source srcset="/assets/img/ceramic-5.webp" type="image/webp"/><img alt="نمونه کار کوتینگ چینی شماره 5" class="img-zoom" decoding="async" height="600" loading="lazy" src="/assets/img/ceramic-5.jpg" width="900"/></picture></div>
+<div class="slide-body">
+<h3 class="slide-title"><span data-i18n="t116">ظروف طرح‌دار</span></h3>
+<p class="slide-text"><span data-i18n="t117">ظروف چینی با طرح ترنسفر و پوشش دودی</span></p>
+<div class="slide-tags">
+<span class="badge"><span data-i18n="t118">دودی</span></span>
+<span class="badge"><span data-i18n="t119">ترنسفر</span></span>
+</div>
+</div>
+</div>
+</div>
+<button aria-label="بعدی" class="slider-nav next" data-i18n-aria="t603">
+<svg viewbox="0 0 24 24">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="luxury">
+<div class="container">
+<h2 class="section-title" style="text-align:center;"><span data-i18n="t_home_lux_section_title">خدمات لوکس و دکوراتیو</span></h2>
+<p class="section-subtitle" style="text-align:center;"><span data-i18n="t_home_lux_section_desc">تمرکز ویژه روی PVD تزئینی برای شیرآلات، یراق و دکوراسیون داخلی.</span></p>
+<div class="cards">
+<a class="card card-link" href="https://kavico.ir/services/decorative-pvd/">
+<h3><span data-i18n="decorPvdTitle">پوشش PVD تزئینی و لوکس</span></h3>
+<p><span data-i18n="decorPvdLead">برای شیرآلات، یراق‌آلات، دکوراسیون داخلی و قطعات لوکس؛ با انتخاب رنگ و فینیش دقیق.</span></p>
+</a>
+<a class="card card-link" href="https://kavico.ir/services/pvd-faucets/">
+<h3><span data-i18n="svcFaucetsTitle">پوشش PVD شیرآلات و یراق لوکس</span></h3>
+<p><span data-i18n="svcFaucetsLead">برای شیرآلات، دستگیره‌ها، یراق‌آلات و قطعات دکوراتیو؛ با انتخاب رنگ و فینیش (طلایی، رزگلد، دودی، مشکی) و امکان نمونه‌سازی.</span></p>
+</a>
+<a class="card card-link" href="https://kavico.ir/blog/pvd-faucets/">
+<h3><span data-i18n="t_blog_pvd-faucets_title">پوشش PVD برای شیرآلات و اکسسوری لوکس (طلایی، رزگلد، دودی)</span></h3>
+<p><span data-i18n="t_card_pvd_faucets_d">راهنمای انتخاب جنس، رنگ و فینیش برای دکوراتیو.</span></p>
+</a>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="faq">
+<div class="container">
+<div class="grid-2">
+<div>
+<h2 class="section-title"><span data-i18n="t120">سوالات متداول</span></h2>
+<div class="faq">
+<div class="faq-item">
+<button class="faq-q">
+<span><span data-i18n="t121">زمان انجام کار چقدر است؟</span></span>
+<span>▼</span>
+</button>
+<div class="faq-a"><span data-i18n="t122">بسته به نوع قطعه و پوشش، زمان تحویل متفاوت است. پس از بررسی، زمان دقیق اعلام می‌شود.</span></div>
+</div>
+<div class="faq-item">
+<button class="faq-q">
+<span><span data-i18n="t123">آیا پوشش PVD ضد خش است؟</span></span>
+<span>▼</span>
+</button>
+<div class="faq-a"><span data-i18n="t124">PVD مقاومت سایشی را افزایش می‌دهد، اما ضد خش مطلق نیست. نوع پوشش مهم است.</span></div>
+</div>
+<div class="faq-item">
+<button class="faq-q">
+<span><span data-i18n="t125">هزینه چگونه محاسبه می‌شود؟</span></span>
+<span>▼</span>
+</button>
+<div class="faq-a"><span data-i18n="t126">بر اساس نوع ماده، اندازه، رنگ و تیراژ. برای قیمت دقیق تماس بگیرید.</span></div>
+</div>
+</div>
+</div>
+<div class="section-img zoom-wrap"><picture><source srcset="/assets/img/faq.webp" type="image/webp"/><img alt="پرسش‌های متداول درباره خدمات" class="img-zoom" decoding="async" height="700" loading="lazy" src="/assets/img/faq.jpg" width="1100"/></picture></div>
+</div>
+</div>
+</section>
+<section class="section fade-in" id="contact">
+<div class="container">
+<h2 class="section-title" style="text-align: center;"><span data-i18n="t127">ارتباط با ما</span></h2>
+<p class="section-subtitle" style="text-align: center;"><span data-i18n="t128">برای مشاوره و سفارش با ما در تماس باشید</span></p>
+<div class="contact-grid">
+<a class="contact-card" href="tel:09125460799">
+<div style="font-size: 2rem; margin-bottom: 0.5rem;">📞</div>
+<div style="font-weight: 600; margin-bottom: 0.3rem;"><span data-i18n="t129">تماس مستقیم</span></div>
+<div><span data-i18n="t130">۰۹۱۲۵۴۶۰۷۹۹</span></div>
+</a>
+<a class="contact-card" href="https://wa.me/989125460799">
+<div style="font-size: 2rem; margin-bottom: 0.5rem;">💬</div>
+<div style="font-weight: 600; margin-bottom: 0.3rem;"><span data-i18n="t131">واتساپ</span></div>
+<div><span data-i18n="t132">پیام و مشاوره</span></div>
+</a>
+<a class="contact-card" href="https://instagram.com/kavico.ir">
+<div style="font-size: 2rem; margin-bottom: 0.5rem;">📷</div>
+<div style="font-weight: 600; margin-bottom: 0.3rem;"><span data-i18n="t133">اینستاگرام</span></div>
+<div>@kavico.ir</div>
+</a>
+</div>
+<div style="margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center;">
+<div>
+<h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 1rem;"><span data-i18n="t134">📍 آدرس کارگاه</span></h3>
+<p style="color: var(--muted); line-height: 2; margin-bottom: 1.5rem;"><span data-i18n="t135">
+                                تهران، منطقه شهریار، اندیشه، بلوار ولایت، نرسیده به ملارد، بلوار راغب، خیابان اطلس شرقی، پلاک ۶۴۹
+                            </span></p>
+<div style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+<a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=35.691065,50.997938" style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.95rem; padding: 0.75rem 1.3rem;" target="_blank"><span data-i18n="t136">
+                                    🗺️ مسیریابی با گوگل
+                                </span></a>
+<a class="btn btn-ghost" href="https://balad.ir/directions/driving#15/35.69199/50.99813" style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.95rem; padding: 0.75rem 1.3rem;" target="_blank"><span data-i18n="t137">
+                                    🧭 مسیریابی با بلد
+                                </span></a>
+<a class="btn btn-ghost" href="https://nshn.ir/35.691065,50.997938,17" style="display: inline-flex; align-items: center; gap: 0.5rem; font-size: 0.95rem; padding: 0.75rem 1.3rem;" target="_blank"><span data-i18n="t138">
+                                    📍 مسیریابی با نشان
+                                </span></a>
+</div>
+</div>
+<div style="position: relative; overflow: hidden; border-radius: 16px; border: 1px solid rgba(255,255,255,0.12); height: 300px;">
+<div id="map" style="width: 100%; height: 100%;"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<button aria-label="بازگشت به بالا" class="scroll-top" data-i18n-aria="t604" id="scrollTop">
+<svg viewbox="0 0 24 24">
+<polyline points="18 15 12 9 6 15"></polyline>
+</svg>
+</button>
+<footer class="footer">
+<div class="container">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; margin-bottom: 2rem;">
+<div>
+<a aria-label="مجموعه پوشش‌دهی کاویان" class="logo footer-logo" data-i18n-aria="t600" href="https://kavico.ir/"><img alt="مجموعه پوشش‌دهی کاویان" class="logo-img" data-i18n-alt="t163" decoding="async" height="44" loading="lazy" src="/assets/img/logo.svg" width="44"/><span class="logo-text" data-i18n="t600">مجموعه پوشش‌دهی کاویان</span></a>
+<p style="color: var(--muted); line-height: 1.9; margin-bottom: 1rem;"><span data-i18n="t140">
+                        ارائه‌دهنده خدمات لایه‌نشانی PVD با کیفیت بالا و تنوع رنگی فراوان برای صنایع مختلف
+                    </span></p>
+<div style="display: flex; gap: 0.8rem;">
+<a href="https://instagram.com/kavico.ir" style="width: 40px; height: 40px; display: grid; place-items: center; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: 50%; transition: all 0.3s;">📷</a>
+<a href="https://wa.me/989125460799" style="width: 40px; height: 40px; display: grid; place-items: center; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: 50%; transition: all 0.3s;">💬</a>
+<a href="tel:09125460799" style="width: 40px; height: 40px; display: grid; place-items: center; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: 50%; transition: all 0.3s;">📞</a>
+</div>
+</div>
+<div>
+<h4 style="font-weight: 700; margin-bottom: 1rem; font-size: 1.1rem;"><span data-i18n="t141">دسترسی سریع</span></h4>
+<div style="display: flex; flex-direction: column; gap: 0.7rem;">
+<a href="https://kavico.ir/services/" style="color: var(--muted); transition: all 0.3s;"><span data-i18n="t142">خدمات ما</span></a><a href="https://kavico.ir/compare/"><span data-i18n="footer_compare">مقایسه‌ها</span></a>
+<a href="https://kavico.ir/portfolio/" style="color: var(--muted); transition: all 0.3s;"><span data-i18n="t143">نمونه کارها</span></a>
+<a href="https://kavico.ir/about/" style="color: var(--muted); transition: all 0.3s;"><span data-i18n="t144">درباره ما</span></a>
+<a href="https://kavico.ir/faq/" style="color: var(--muted); transition: all 0.3s;"><span data-i18n="t145">سوالات متداول</span></a><a href="https://kavico.ir/tools/"><span data-i18n="footer_tools">ابزارها</span></a>
+<a href="https://kavico.ir/contact/" style="color: var(--muted); transition: all 0.3s;"><span data-i18n="t146">تماس با ما</span></a>
+</div>
+</div>
+<div>
+<h4 style="font-weight: 700; margin-bottom: 1rem; font-size: 1.1rem;"><span data-i18n="t147">تماس با ما</span></h4>
+<div style="display: flex; flex-direction: column; gap: 0.9rem; color: var(--muted);">
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-weight: 600; color: var(--text); font-size: 0.9rem; margin-bottom: 0.2rem;"><span data-i18n="t148">📱 موبایل:</span></div>
+<a href="tel:09125460799" style="display: flex; align-items: center; gap: 0.6rem; color: inherit; transition: all 0.3s; padding-right: 1.2rem;">
+<span><span data-i18n="t149">۰۹۱۲۵۴۶۰۷۹۹</span></span>
+</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-weight: 600; color: var(--text); font-size: 0.9rem; margin-bottom: 0.2rem;"><span data-i18n="t150">☎️ تلفن ثابت:</span></div>
+<div class="footer-phones" style="display: flex; flex-direction: column; gap: 0.6rem; padding-right: 1.2rem;">
+<a href="tel:02165171020" style="color: inherit; transition: all 0.3s;">
+<span><span data-i18n="t151">۰۲۱-۶۵۱۷۱۰۲۰</span></span>
+</a>
+<a href="tel:02165163737" style="color: inherit; transition: all 0.3s;">
+<span><span data-i18n="t152">۰۲۱-۶۵۱۶۳۷۳۷</span></span>
+</a>
+<a href="tel:02165161432" style="color: inherit; transition: all 0.3s;">
+<span><span data-i18n="t153">۰۲۱-۶۵۱۶۱۴۳۲</span></span>
+</a>
+</div>
+</div>
+<div style="display: flex; align-items: start; gap: 0.6rem; margin-top: 0.3rem;"><span>✉️</span><a href="mailto:kaviancoating@gmail.com" style="color: inherit; transition: all 0.3s;"><span data-i18n="t398">kaviancoating@gmail.com</span></a></div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-weight: 600; color: var(--text); font-size: 0.95rem; margin-bottom: 0.2rem;"><span data-i18n="t500">📧 ایمیل:</span></div>
+<a href="mailto:kaviancoating@gmail.com" style="color: inherit; transition: all 0.3s; display: flex; align-items: center; gap: 0.6rem; padding-right: 1.2rem;">kaviancoating@gmail.com</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 0.6rem;">
+<div style="font-weight: 600; color: var(--text); font-size: 0.95rem; margin-bottom: 0.2rem;"><span data-i18n="t502">⏰ ساعات کاری:</span></div>
+<div style="padding-right: 1.2rem; display: flex; flex-direction: column; gap: 0.3rem; line-height: 1.8;">
+<span data-i18n="t503">شنبه تا چهارشنبه: ۷ تا ۱۷</span>
+<span data-i18n="t504">پنجشنبه: ۷ تا ۱۳</span>
+</div>
+</div>
+<div style="display: flex; align-items: start; gap: 0.6rem; margin-top: 0.3rem;">
+<span>📍</span>
+<span style="line-height: 1.8;"><span data-i18n="t154">تهران، شهریار، اندیشه، بلوار ولایت، خیابان اطلس شرقی، پلاک ۶۴۹</span></span>
+</div>
+</div>
+</div>
+</div>
+<div style="border-top: 1px solid rgba(255,255,255,0.12); padding-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.95rem;">
+<div style="color: var(--muted);"><span data-i18n="t155">
+                    © ۱۴۰۴ مجموعه پوشش‌دهی کاویان. تمامی حقوق محفوظ است.
+                </span></div>
+<div style="color: var(--muted);"><span data-i18n="t156">
+                    طراحی و توسعه توسط </span><a href="https://github.com/amirlotfifar1994-dot/" rel="noopener noreferrer" style="color: var(--accent); font-weight: 600; transition: all 0.3s;" target="_blank"><span data-i18n="t157">امیر لطفی‌فر</span></a>
+</div>
+</div>
+</div>
+<a href="https://kavico.ir/hub/"><span data-i18n="footer_hub">مرکز دانش</span></a></footer>
+<script defer="" src="/assets/js/app.js"></script>
+</body>
+</html>

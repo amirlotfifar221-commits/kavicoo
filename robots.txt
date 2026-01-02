@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kavico.ir/sitemap.xml
+
+# Optional: set your primary host (replace)
+# Host: example.com
